@@ -13,9 +13,9 @@ Take a copy of ping.php and place it into an accessible place on your server. In
 
 zzz.zzz.zzz.zzz : Replace with the public IP of your server, running apache and hosting ping.php
 
-xxx.xxx.xxx.xxx : Replace with the public IP of your phone
+xxx.xxx.xxx.xxx : Replace with the public IP of Bob's phone
 
-yyy.yyy.yyy.yyy : Replace with the public IP of your phone
+yyy.yyy.yyy.yyy : Replace with the public IP of Alice's phone
 
 ### Prerequisites
 

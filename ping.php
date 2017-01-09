@@ -1,5 +1,4 @@
-<
-php
+<?php
 
 //Security Key, phones need to send this to access the phone API
 if($_GET['key'] != "gfsjh39esadsaFDsa"){
@@ -17,16 +16,16 @@ $bool   = (int) trim($_GET['bool']);         //Action On or off?
 //The forwarding functionality is setup to instruct a phone to dial a certain number to forward a call to. This is because Telecube.com.au doesn't support call forwarding to be initiated from the phone's built in call forwarding function and is instead handled through a dialing code from the handset.
 //Port : the public facing port the phone's internal web server has been forwarded to on 'ip'
 //lines : how you've setup your lines via BLF or other. So the script knows which button to change the LED on.
-//Jane and Bob : Update to the names of your phones.
-$devices = array("Bob" => array("ip" => "xxx.xxx.xxx.xxx",
+//Alice and Bob : Update to the names of your phones.
+$devices = array("bob" => array("ip" => "xxx.xxx.xxx.xxx",
 								  "port" => 12740,
-								  'lines' => array('Jane' => 'LINE1',
+								  'lines' => array('alice' => 'LINE1',
 												   'forward' => 'LINE5'), 
 								  'forward_calls_to' => '0403111222', 
 								  'instruct_phone_to_forward' => TRUE),
-				 "Jane"  => array("ip" => "yyy.yyy.yyy.yyy",
+				 "alice"  => array("ip" => "yyy.yyy.yyy.yyy",
 								  "port" => 12733,
-								  'lines' => array('Bob' => 'LINE1',
+								  'lines' => array('bob' => 'LINE1',
 												   'forward' => 'LINE5'),
 								  'forward_calls_to' => '0466555777',
 								  'instruct_phone_to_forward' => TRUE)

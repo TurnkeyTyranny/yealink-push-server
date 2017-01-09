@@ -2,6 +2,11 @@
 
 I wrote this code so that I could be notified when other phones in my pool have their DND button pressed. The Phone pings my server which hosts this script, and then the script notifies my other phones by displaying a message on screen and updating the corresponding line LED to blinking red.
 
+![yealink](https://github.com/TurnkeyTyranny/yealink-push-server/raw/master/yealink-dispatch.jpg)
+
+![yealink 2](https://github.com/TurnkeyTyranny/yealink-push-server/raw/master/example%20dnd%20mode.jpg)
+
+
 ## Getting Started
 
 Take a copy of ping.php and place it into an accessible place on your server. In the file ping.php I have blanked out some information such as my public IP addresses my phones live at, the public IP address of my server and the names of my phones.
@@ -19,6 +24,8 @@ This guide assumes that you have a few Yealink phones on your network. Each phon
 
 Change the passwords on your phones! They will be accessible to the world.
 ```
+
+![yealink port forward](https://github.com/TurnkeyTyranny/yealink-push-server/raw/master/port-forwarded-phone.png)
 
 ### Installing
 
@@ -47,6 +54,8 @@ Update the Close DND url to the same as above, except set bool=1 in the url to b
 ```
 Set your server's public IP in your phones configuration via the 'Remote Control' menu, see picture below.
 ```
+
+![yealink remote server](https://github.com/TurnkeyTyranny/yealink-push-server/raw/master/jane.png)
 
 ```
 Do these steps for all your other phones, give them an appropriate name instead of Bob or Alice. The names in ping.php and the urls will be case sensitive

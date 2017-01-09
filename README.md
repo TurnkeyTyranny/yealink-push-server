@@ -12,7 +12,9 @@ I wrote this code so that I could be notified when other phones in my pool have 
 Take a copy of ping.php and place it into an accessible place on your server. In the file ping.php I have blanked out some information such as my public IP addresses my phones live at, the public IP address of my server and the names of my phones.
 
 zzz.zzz.zzz.zzz : Replace with the public IP of your server, running apache and hosting ping.php
+
 xxx.xxx.xxx.xxx : Replace with the public IP of your phone
+
 yyy.yyy.yyy.yyy : Replace with the public IP of your phone
 
 ### Prerequisites

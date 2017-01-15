@@ -74,4 +74,5 @@ Save the changes to your phone.
 
 ## License
 
-This project is licensed under the MIT License
+This software is free to be used for non commercial purposes. You can use it at your company, but don't try to sell it.
+All copyright remains with the original Author.
